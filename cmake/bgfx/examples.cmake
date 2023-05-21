@@ -313,7 +313,7 @@ if(BGFX_BUILD_EXAMPLES)
 		18-ibl
 		19-oit
 		20-nanovg
-		# 21-deferred
+		21-deferred
 		22-windows
 		23-vectordisplay
 		24-nbody
@@ -329,17 +329,19 @@ if(BGFX_BUILD_EXAMPLES)
 		34-mvs
 		35-dynamic
 		36-sky
-		# 37-gpudrivenrendering
+		37-gpudrivenrendering
 		38-bloom
 		39-assao
 		40-svt
-		# 41-tess
+		41-tess
 		42-bunnylod
 		43-denoise
 		44-sss
 		45-bokeh
 		46-fsr
 		47-pixelformats
+		48-drawindirect
+		49-hextile
 	)
 
 	foreach(EXAMPLE ${BGFX_EXAMPLES})
